@@ -1,0 +1,23 @@
+
+@define-mixin atsm {
+  @media (min-width: 576px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atmd {
+  @media (min-width: 768px) {
+    @mixin-content;
+  }
+}
+@define-mixin atlg {
+  @media (min-width: 992px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atxl {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
