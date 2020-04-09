@@ -1,0 +1,14 @@
+
+
+{{#shapes}}
+  {{#first}}
+  .icon {
+    background-image: url('../marketflux/images/sprite/css/{{{sprite}}}');
+  }
+  {{/first}}
+  .icon--{{base}} {
+    width: {{width.outer}}px;
+    height: {{height.outer}}px;
+    background-position: {{position.relative.xy}};
+  }
+{{/shapes}}
