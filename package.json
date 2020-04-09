@@ -2,7 +2,7 @@
   "name": "marketflux",
   "version": "1.0.0",
   "dependencies": {
-    "jquery": "^2.2.3",
+    "jquery": "^3.4.1",
     "jquery-smooth-scroll": "^2.0.0",
     "lazysizes": "^5.2.0",
     "normalize.css": "^7.0.0",
