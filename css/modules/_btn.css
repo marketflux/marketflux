@@ -1,0 +1,15 @@
+.btn-a {
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: $mainBlue;
+  color: #FFF;
+}
+.btn-a:hover {
+  background-color: #FFF;
+  color: $mainBlue;
+}
+
+.navbar-toggler-icon {
+  background-image: url(images/icon/search.svg);
+}

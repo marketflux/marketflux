@@ -1,0 +1,25 @@
+
+.site-footer {
+
+  background: #a8aeb3;
+}
+
+.social-icon {
+
+  display: inline-block;
+  vertical-align: bottom;
+
+}
+
+.footer-list {
+font-size: 0.7rem;
+@mixin atsm {
+   font-size: 1rem;
+}
+}
+.footer-list ul {
+padding: 0;
+@mixin atlg {
+   
+}
+}

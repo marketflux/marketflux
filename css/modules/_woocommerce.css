@@ -1,0 +1,100 @@
+.woocommerce ul.products li.product a img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 0 1em;
+    box-shadow: none;
+}
+/* content width*/
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+.shop-content {
+  max-width: 100%;
+	height: auto;
+
+  }
+
+/*
+  ==========================================
+  Shop page modification start
+  ==========================================
+*/
+#coupon_code {
+  width: 150px;
+}
+.woocommerce ul.products li.product a img {
+    width: 255px;
+    height: auto;
+    display: block;
+    margin: 0 1em 1em 0;
+    box-shadow: none;
+    float: left;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+
+.post-type-archive-product .woocommerce-loop-product__title{
+    margin-bottom: 0.5rem !important;
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 0;
+}
+
+.woocommerce ul.products li.product p{
+    color: #000;
+}
+
+.woocommerce ul.products li.product .price{
+    color: #000;
+    font-weight: 600;
+}
+
+.woocommerce ul.products li.product .price ins {
+    font-size: 140%;
+}
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+    padding: 12px;
+}
+/*
+  ==========================================
+  My account page start
+  ==========================================
+*/
+.woocommerce .col2-set .col-1,
+ .woocommerce .col2-set .col-2{
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+/*
+  ==========================================
+  My account page finish
+  ==========================================
+*/
+
+
+.woocommerce a.button {
+    background-color: #D2335B;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1;
+    padding: 0.618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
+}

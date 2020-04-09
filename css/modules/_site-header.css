@@ -1,0 +1,163 @@
+
+.top-bar {
+
+  background: #a8aeb3;
+}
+
+
+/*
+  ==========================================
+   REVEAL AND HIIDE STYLES
+  ==========================================
+*/
+
+.toggle-btn {
+  display: none;
+}
+
+  .toggle-btn-visible {
+    display: block;
+  }
+  .toggle-target-hidden {
+    display: none;
+  }
+  .toggle-target-expanded {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+.signin li a {
+padding: 5px;
+}
+/*
+  ==========================================
+   CART
+  ==========================================
+*/
+.cart .cart-icon {
+
+  display: inline-block;
+  vertical-align: bottom;
+
+}
+.cart .items {
+  background: $lightOrange;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+ }
+/*
+  ==========================================
+   SEARCH FORM INPUTS
+  ==========================================
+*/
+.search-form button {
+/*border: 2px solid red;*/
+
+padding: 0;
+padding-top: 10px;
+
+}
+.search-form input[type="search"] {
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 110%;
+  /*border: 2px solid red;*/
+  height: 30px;
+  box-sizing: border-box;
+
+
+
+
+  }
+
+
+.search-form input.search-field {
+  width: 200px;
+  max-width: 100%;
+  margin: none;
+  padding: 0;
+  margin-left: -20px;
+
+  @mixin atsm {
+     width: 350px;
+ }
+
+  }
+
+
+
+/*
+  ==========================================
+   ACCOUNT
+  ==========================================
+*/
+
+.navbar-nav {
+  list-style: none;
+}
+
+.categories {
+   width: auto;
+   height: 25px;
+}
+
+.mobile-nav-toggle {
+   width: 20px;
+   height: 20px;
+   display: flex;
+   align-items: center;
+   & span,
+      span:after,
+      span:before
+
+      {
+         content: '';
+         display: block;
+         height: 2px;
+         width: 100%;
+         background: #333;
+         position: relative;
+
+      }
+   & span:before {
+      top: 8px;
+   }
+   & span:after {
+      bottom: 10px;
+   }
+
+
+
+
+
+}
+.menu-categories {
+   width: 200px;
+   height: 300px;
+   z-index: 105;
+
+}
+
+.icon:hover {
+	cursor: pointer;
+filter: brightness(0.5);
+
+}
+
+
+/* categories list  */
+
+ ol, ul, dl {
+
+    list-style: none;
+}
